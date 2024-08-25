@@ -8,4 +8,5 @@ router.register(r'todos',views.ToDoViewSet,basename='todo')
 
 urlpatterns=[
     path('',include(router.urls))
+    # path('signup/',views.UserRegistrationView.as_view(),name='signup'),
 ]
